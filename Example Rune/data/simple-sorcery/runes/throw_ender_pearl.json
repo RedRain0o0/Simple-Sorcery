@@ -1,0 +1,12 @@
+{
+  "type": "simple-sorcery:fire_projectile",
+  "mana": 5,
+  "entity_type": "minecraft:ender_pearl",
+  "sound": "minecraft:entity.ender_pearl.throw",
+  "speed": 1.5,
+  "divergence": 1,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}
