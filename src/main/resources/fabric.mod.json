@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "simple-sorcery",
+	"version": "${version}",
+	"name": "Simple Sorcery",
+	"description": "Simple Sorcery aims to be a new take on magic in Minecraft.",
+	"authors": [
+		"RedRain0o0"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/simple-sorcery",
+		"sources": "https://github.com/RedRain0o0/Simple-Sorcery"
+	},
+	"license": "MIT",
+	"icon": "assets/simple-sorcery/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.redrain0o0.SimpleSorcery"
+		],
+		"client": [
+			"com.redrain0o0.SimpleSorceryClient"
+		],
+		"fabric-datagen": [
+			"com.redrain0o0.SimpleSorceryDataGenerator"
+		]
+	},
+	"mixins": [
+		"simple-sorcery.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.18",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
